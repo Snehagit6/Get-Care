@@ -1,0 +1,34 @@
+[project]
+name = "get-care"
+version = "0.1.0"
+description = "Dependencies for Get-care project"
+readme = "README.md"
+authors = [
+    { name = "Sneha Mazumder", email = "snehaclass12@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "python-docx>=1.1.2",
+    "groq>=1.6.0",
+    "opencv-python>=5.0.0.93",
+    "pdf2image>=1.17.0",
+    "pdfplumber>=0.11.10",
+    "pillow>=12.3.0",
+    "pymupdf>=1.28.2",
+    "pypdf>=6.16.1",
+    "pytesseract>=0.3.13",
+    "requests>=2.34.2",
+    "streamlit>=1.62.0",
+    "faiss-cpu>=1.15.0",
+    "sentence-transformers>=6.0.0",
+    "langchain-community>=0.3.0",
+    "langchain-huggingface>=0.1.0",
+    "langchain-text-splitters>=0.3.0",
+]
+
+[project.scripts]
+get-care = "get_care:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"

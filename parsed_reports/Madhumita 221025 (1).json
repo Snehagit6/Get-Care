@@ -1,0 +1,154 @@
+{
+  "schema_version": "1.0",
+  "report_id": "._(SCT) : 22 Oct 2025 07:04",
+  "report_date": "(SCT) : 22 Oct 2025 07:04",
+  "patient": {
+    "patient_id": null,
+    "name": ".",
+    "age": null,
+    "gender": null
+  },
+  "report_metadata": {
+    "referred_by": "SELF Sample Received on (SRT) :22 Oct 2025 16:09",
+    "address": null,
+    "tests_done": [
+      "as well as any claim for"
+    ],
+    "processed_at": "5CA-711, 3rd Floor, HRBR 2nd"
+  },
+  "laboratory_results": [
+    {
+      "canonical_name": "estimated_average_glucose",
+      "value": 169.0,
+      "unit": "mg/dL",
+      "reference_range": "< 5.7",
+      "source_rows": [
+        "AVERAGE BLOOD GLUCOSE (ABG) 169 mg/dL 90-120",
+        "HbA1c 7.5 % < 5.7",
+        "URINARY MICROALBUMIN 122.1 µg/mL < 25",
+        "LIPID"
+      ],
+      "extraction_method": "layout_aware_window_parser",
+      "confidence": "high"
+    },
+    {
+      "canonical_name": "hba1c",
+      "value": 7.5,
+      "unit": "µg/mL",
+      "reference_range": "< 5.7",
+      "source_rows": [
+        "HbA1c 7.5 % < 5.7",
+        "URINARY MICROALBUMIN 122.1 µg/mL < 25",
+        "LIPID",
+        "HDL / LDL RATIO 0.37 Ratio > 0.40"
+      ],
+      "extraction_method": "layout_aware_window_parser",
+      "confidence": "high"
+    },
+    {
+      "canonical_name": "urine_microalbumin",
+      "value": 25.0,
+      "unit": "mg/dL",
+      "reference_range": "< 25",
+      "source_rows": [
+        "URINARY MICROALBUMIN 122.1 µg/mL < 25",
+        "LIPID",
+        "HDL / LDL RATIO 0.37 Ratio > 0.40",
+        "HDL CHOLESTEROL - DIRECT 37 mg/dL 40-60"
+      ],
+      "extraction_method": "layout_aware_window_parser",
+      "confidence": "high"
+    },
+    {
+      "canonical_name": "hdl",
+      "value": 37.0,
+      "unit": "mg/dL",
+      "reference_range": "< 100",
+      "source_rows": [
+        "HDL CHOLESTEROL - DIRECT 37 mg/dL 40-60",
+        "LDL CHOLESTEROL - DIRECT 101 mg/dL < 100",
+        "TRIG / HDL RATIO 4.5 Ratio < 3.12",
+        "TRIGLYCERIDES 167 mg/dL < 150"
+      ],
+      "extraction_method": "layout_aware_window_parser",
+      "confidence": "high"
+    },
+    {
+      "canonical_name": "ldl",
+      "value": 101.0,
+      "unit": "mg/dL",
+      "reference_range": "< 100",
+      "source_rows": [
+        "LDL CHOLESTEROL - DIRECT 101 mg/dL < 100",
+        "TRIG / HDL RATIO 4.5 Ratio < 3.12",
+        "TRIGLYCERIDES 167 mg/dL < 150",
+        "RENAL"
+      ],
+      "extraction_method": "layout_aware_window_parser",
+      "confidence": "high"
+    },
+    {
+      "canonical_name": "triglycerides",
+      "value": 167.0,
+      "unit": "mg/dL",
+      "reference_range": "< 150",
+      "source_rows": [
+        "TRIGLYCERIDES 167 mg/dL < 150",
+        "RENAL",
+        "URI. ALBUMIN/CREATININE RATIO (UA/C) 342.9 µg/mg of < 30",
+        "Creatinine"
+      ],
+      "extraction_method": "layout_aware_window_parser",
+      "confidence": "high"
+    },
+    {
+      "canonical_name": "urine_albumin_creatinine_ratio",
+      "value": 30.0,
+      "unit": "µg/mg",
+      "reference_range": "< 30",
+      "source_rows": [
+        "URI. ALBUMIN/CREATININE RATIO (UA/C) 342.9 µg/mg of < 30",
+        "Creatinine",
+        "Disclaimer: The above listed is the summary of the parameters with values outside the BRI. For detailed report values, parameter correlation and clinical",
+        "interpretation, kindly refer to the same in subsequent pages."
+      ],
+      "extraction_method": "layout_aware_window_parser",
+      "confidence": "high"
+    },
+    {
+      "canonical_name": "total_cholesterol",
+      "value": 154.0,
+      "unit": "mg/dL",
+      "reference_range": "< 200",
+      "source_rows": [
+        "TOTAL CHOLESTEROL PHOTOMETRY 154 mg/dL < 200",
+        "HDL CHOLESTEROL - DIRECT PHOTOMETRY 37 mg/dL 40-60",
+        "LDL CHOLESTEROL - DIRECT PHOTOMETRY 101 mg/dL < 100",
+        "TRIGLYCERIDES PHOTOMETRY 167 mg/dL < 150"
+      ],
+      "extraction_method": "layout_aware_window_parser",
+      "confidence": "high"
+    },
+    {
+      "canonical_name": "urine_creatinine",
+      "value": 35.61,
+      "unit": "mg/dL",
+      "reference_range": "39 - 259",
+      "source_rows": [
+        "CREATININE - URINE PHOTOMETRY 35.61 mg/dL",
+        "Bio. Ref. Interval. :",
+        "Male: 39 - 259 mg/dl",
+        "Female: 28 - 217 mg/dl"
+      ],
+      "extraction_method": "layout_aware_window_parser",
+      "confidence": "high"
+    }
+  ],
+  "extraction_metadata": {
+    "created_at": "2026-08-24T14:06:10.402410",
+    "source_file": "Madhumita 221025 (1).pdf",
+    "file_type": "pdf",
+    "extraction_method": "pdf_text",
+    "total_tests_extracted": 9
+  }
+}

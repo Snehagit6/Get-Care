@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0",
+  "report_id": "._(SCT) : 21 Apr 2026 09:01",
+  "report_date": "(SCT) : 21 Apr 2026 09:01",
+  "patient": {
+    "patient_id": null,
+    "name": ".",
+    "age": null,
+    "gender": null
+  },
+  "report_metadata": {
+    "referred_by": "SELF Sample Received on (SRT) : 21 Apr 2026 15:22",
+    "address": "SUMADHUR ASPIRE AMBER ASHRAM ROAD OFF SAI BABA",
+    "tests_done": [
+      "as well as any claim for"
+    ],
+    "processed_at": "5CA-711, 3rd Floor, HRBR 2nd"
+  },
+  "laboratory_results": [
+    {
+      "canonical_name": "total_cholesterol",
+      "value": 154.0,
+      "unit": "mg/dL",
+      "reference_range": "< 200",
+      "source_rows": [
+        "TOTAL CHOLESTEROL PHOTOMETRY 154 mg/dL < 200",
+        "HDL CHOLESTEROL - DIRECT PHOTOMETRY 42 mg/dL 40-60",
+        "LDL CHOLESTEROL - DIRECT PHOTOMETRY 99 mg/dL < 100",
+        "TRIGLYCERIDES PHOTOMETRY 166 mg/dL < 150"
+      ],
+      "extraction_method": "layout_aware_window_parser",
+      "confidence": "high"
+    },
+    {
+      "canonical_name": "hdl",
+      "value": 42.0,
+      "unit": "mg/dL",
+      "reference_range": "< 100",
+      "source_rows": [
+        "HDL CHOLESTEROL - DIRECT PHOTOMETRY 42 mg/dL 40-60",
+        "LDL CHOLESTEROL - DIRECT PHOTOMETRY 99 mg/dL < 100",
+        "TRIGLYCERIDES PHOTOMETRY 166 mg/dL < 150",
+        "TC/ HDL CHOLESTEROL RATIO CALCULATED 3.7 Ratio 3 - 5"
+      ],
+      "extraction_method": "layout_aware_window_parser",
+      "confidence": "high"
+    },
+    {
+      "canonical_name": "ldl",
+      "value": 99.0,
+      "unit": "mg/dL",
+      "reference_range": "< 100",
+      "source_rows": [
+        "LDL CHOLESTEROL - DIRECT PHOTOMETRY 99 mg/dL < 100",
+        "TRIGLYCERIDES PHOTOMETRY 166 mg/dL < 150",
+        "TC/ HDL CHOLESTEROL RATIO CALCULATED 3.7 Ratio 3 - 5",
+        "TRIG / HDL RATIO CALCULATED 3.98 Ratio < 3.12"
+      ],
+      "extraction_method": "layout_aware_window_parser",
+      "confidence": "high"
+    },
+    {
+      "canonical_name": "triglycerides",
+      "value": 166.0,
+      "unit": "mg/dL",
+      "reference_range": "< 150",
+      "source_rows": [
+        "TRIGLYCERIDES PHOTOMETRY 166 mg/dL < 150",
+        "TC/ HDL CHOLESTEROL RATIO CALCULATED 3.7 Ratio 3 - 5",
+        "TRIG / HDL RATIO CALCULATED 3.98 Ratio < 3.12",
+        "LDL / HDL RATIO CALCULATED 2.4 Ratio 1.5-3.5"
+      ],
+      "extraction_method": "layout_aware_window_parser",
+      "confidence": "high"
+    },
+    {
+      "canonical_name": "hba1c",
+      "value": 9.0,
+      "unit": "%",
+      "reference_range": null,
+      "source_rows": [
+        "HbA1c H.P.L.C 9 %",
+        "Bio. Ref. Interval. :",
+        "As per ADA Guidelines Guidance For Known Diabetics",
+        "Below 5.7% : Normal Below 6.5% : Good Control"
+      ],
+      "extraction_method": "layout_aware_window_parser",
+      "confidence": "high"
+    },
+    {
+      "canonical_name": "estimated_average_glucose",
+      "value": 212.0,
+      "unit": "mg/dL",
+      "reference_range": "90 - 120",
+      "source_rows": [
+        "AVERAGE BLOOD GLUCOSE (ABG) CALCULATED 212 mg/dL",
+        "Bio. Ref. Interval. :",
+        "90 - 120 mg/dl : Good Control",
+        "121 - 150 mg/dl : Fair Control"
+      ],
+      "extraction_method": "layout_aware_window_parser",
+      "confidence": "high"
+    },
+    {
+      "canonical_name": "urine_creatinine",
+      "value": 82.8,
+      "unit": "mg/dL",
+      "reference_range": "39 - 259",
+      "source_rows": [
+        "CREATININE - URINE PHOTOMETRY 82.8 mg/dL",
+        "Bio. Ref. Interval. :",
+        "Male: 39 - 259 mg/dl",
+        "Female: 28 - 217 mg/dl"
+      ],
+      "extraction_method": "layout_aware_window_parser",
+      "confidence": "high"
+    }
+  ],
+  "extraction_metadata": {
+    "created_at": "2026-08-24T14:06:07.637016",
+    "source_file": "Madhumita 210426.pdf",
+    "file_type": "pdf",
+    "extraction_method": "pdf_text",
+    "total_tests_extracted": 7
+  }
+}

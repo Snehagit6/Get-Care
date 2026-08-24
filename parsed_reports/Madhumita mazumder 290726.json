@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.0",
+  "report_id": ", as the reported results are dependent on individual assay method(s) used/ equipments_(SCT) : 29 Jul 2026 07:00",
+  "report_date": "(SCT) : 29 Jul 2026 07:00",
+  "patient": {
+    "patient_id": null,
+    "name": ", as the reported results are dependent on individual assay method(s) used/ equipments",
+    "age": null,
+    "gender": null
+  },
+  "report_metadata": {
+    "referred_by": "SELF Sample Received on (SRT) : 29 Jul 2026 15:49",
+    "address": "FLAT.NO.A411,SUMADHURA ASPIRE AMBER ASHRAM ROAD OFF SAI",
+    "tests_done": [
+      "as well as any claim for indirect",
+      "incidental or consequential damages. The total liability",
+      "in any case"
+    ],
+    "processed_at": "5CA-711, 3rd Floor, HRBR 2nd"
+  },
+  "laboratory_results": [
+    {
+      "canonical_name": "estimated_average_glucose",
+      "value": 226.0,
+      "unit": "mg/dL",
+      "reference_range": "< 5.7",
+      "source_rows": [
+        "AVERAGE BLOOD GLUCOSE (ABG) 226 mg/dL 90-120",
+        "FASTING BLOOD SUGAR(GLUCOSE) 180.3 mg/dL 70-100",
+        "HbA1c 9.5 % < 5.7",
+        "POSTPRANDIAL BLOOD SUGAR(GLUCOSE) 266 mg/dL 70-140"
+      ],
+      "extraction_method": "layout_aware_window_parser",
+      "confidence": "high"
+    },
+    {
+      "canonical_name": "hba1c",
+      "value": 9.5,
+      "unit": "mg/dL",
+      "reference_range": "< 5.7",
+      "source_rows": [
+        "HbA1c 9.5 % < 5.7",
+        "POSTPRANDIAL BLOOD SUGAR(GLUCOSE) 266 mg/dL 70-140",
+        "URINARY MICROALBUMIN 37.2 µg/mL < 25",
+        "LIPID"
+      ],
+      "extraction_method": "layout_aware_window_parser",
+      "confidence": "high"
+    },
+    {
+      "canonical_name": "urine_microalbumin",
+      "value": 25.0,
+      "unit": "mg/dL",
+      "reference_range": "< 25",
+      "source_rows": [
+        "URINARY MICROALBUMIN 37.2 µg/mL < 25",
+        "LIPID",
+        "HDL / LDL RATIO 0.38 Ratio > 0.40",
+        "LDL CHOLESTEROL - DIRECT 118 mg/dL < 100"
+      ],
+      "extraction_method": "layout_aware_window_parser",
+      "confidence": "high"
+    },
+    {
+      "canonical_name": "ldl",
+      "value": 118.0,
+      "unit": "mg/dL",
+      "reference_range": "< 100",
+      "source_rows": [
+        "LDL CHOLESTEROL - DIRECT 118 mg/dL < 100",
+        "RENAL",
+        "CREATININE - URINE 19.18 mg/dL 28 - 217",
+        "URI. ALBUMIN/CREATININE RATIO (UA/C) 194 µg/mg of < 30"
+      ],
+      "extraction_method": "layout_aware_window_parser",
+      "confidence": "high"
+    },
+    {
+      "canonical_name": "urine_creatinine",
+      "value": 19.18,
+      "unit": "mg/dL",
+      "reference_range": "< 30",
+      "source_rows": [
+        "CREATININE - URINE 19.18 mg/dL 28 - 217",
+        "URI. ALBUMIN/CREATININE RATIO (UA/C) 194 µg/mg of < 30",
+        "Creatinine",
+        "Disclaimer: The above listed is the summary of the parameters with values outside the BRI. For detailed report values, parameter correlation and clinical"
+      ],
+      "extraction_method": "layout_aware_window_parser",
+      "confidence": "high"
+    },
+    {
+      "canonical_name": "urine_albumin_creatinine_ratio",
+      "value": 30.0,
+      "unit": "µg/mg",
+      "reference_range": "< 30",
+      "source_rows": [
+        "URI. ALBUMIN/CREATININE RATIO (UA/C) 194 µg/mg of < 30",
+        "Creatinine",
+        "Disclaimer: The above listed is the summary of the parameters with values outside the BRI. For detailed report values, parameter correlation and clinical",
+        "interpretation, kindly refer to the same in subsequent pages."
+      ],
+      "extraction_method": "layout_aware_window_parser",
+      "confidence": "high"
+    },
+    {
+      "canonical_name": "total_cholesterol",
+      "value": 176.0,
+      "unit": "mg/dL",
+      "reference_range": "< 200",
+      "source_rows": [
+        "TOTAL CHOLESTEROL PHOTOMETRY 176 mg/dL < 200",
+        "HDL CHOLESTEROL - DIRECT PHOTOMETRY 45 mg/dL 40-60",
+        "LDL CHOLESTEROL - DIRECT PHOTOMETRY 118 mg/dL < 100",
+        "TRIGLYCERIDES PHOTOMETRY 114 mg/dL < 150"
+      ],
+      "extraction_method": "layout_aware_window_parser",
+      "confidence": "high"
+    },
+    {
+      "canonical_name": "hdl",
+      "value": 45.0,
+      "unit": "mg/dL",
+      "reference_range": "< 100",
+      "source_rows": [
+        "HDL CHOLESTEROL - DIRECT PHOTOMETRY 45 mg/dL 40-60",
+        "LDL CHOLESTEROL - DIRECT PHOTOMETRY 118 mg/dL < 100",
+        "TRIGLYCERIDES PHOTOMETRY 114 mg/dL < 150",
+        "TC/ HDL CHOLESTEROL RATIO CALCULATED 3.9 Ratio 3 - 5"
+      ],
+      "extraction_method": "layout_aware_window_parser",
+      "confidence": "high"
+    },
+    {
+      "canonical_name": "triglycerides",
+      "value": 114.0,
+      "unit": "mg/dL",
+      "reference_range": "< 150",
+      "source_rows": [
+        "TRIGLYCERIDES PHOTOMETRY 114 mg/dL < 150",
+        "TC/ HDL CHOLESTEROL RATIO CALCULATED 3.9 Ratio 3 - 5",
+        "TRIG / HDL RATIO CALCULATED 2.53 Ratio < 3.12",
+        "LDL / HDL RATIO CALCULATED 2.6 Ratio 1.5-3.5"
+      ],
+      "extraction_method": "layout_aware_window_parser",
+      "confidence": "high"
+    }
+  ],
+  "extraction_metadata": {
+    "created_at": "2026-08-24T14:06:13.840516",
+    "source_file": "Madhumita mazumder 290726.pdf",
+    "file_type": "pdf",
+    "extraction_method": "pdf_text",
+    "total_tests_extracted": 9
+  }
+}
