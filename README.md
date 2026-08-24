@@ -204,6 +204,9 @@ across patient groups.
 
 **Guideline RAG**
 American Diabetes Association
+
+
+NOTE: POC is done from live reports.Certain documents under reports removed temporary due to privacy till curation is done.
 International Diabetes Federation
 World Health Organization
 
