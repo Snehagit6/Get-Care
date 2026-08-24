@@ -210,3 +210,6 @@ World Health Organization
 
 **Technology Stack**
 Python, Custom agent framework or LangGraph, Tool-calling architecture, Vector DB, FAISS, LLM: openai/gpt-oss-20b
+
+
+**NOTE**: POC is done from live reports to address real problem. Certain documents under reports removed temporarily due to privacy till curation is done.
