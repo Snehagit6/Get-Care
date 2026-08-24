@@ -206,47 +206,7 @@ across patient groups.
 American Diabetes Association
 International Diabetes Federation
 World Health Organization
-National Institute for Health and Care Excellence
-Best Journals for RAG
-Diabetes Specific
-Diabetes Care
-Diabetologia
-Diabetes
-The Lancet Diabetes & Endocrinology
-General Medical
-The New England Journal of Medicine
-The BMJ
-JAMA
-Public Datasets for Model Training
-Pima Indians Diabetes Dataset
-NHANES
-MIMIC-IV
-UK Biobank
 
 
-**Treatment Planning Agent**
-
-Generates suggestions for physician review.
-
-
-Technology Stack
-
-
-Backend
-Python
-FastAPI
-Agents
-Custom agent framework or LangGraph
-Tool-calling architecture
-Vector DB
-FAISS (local prototype)
-Qdrant
-Milvus
-LLM
-GPT models
-Mistral AI models
-Meta Llama models
-Medical NLP
-BioBERT
-ClinicalBERT
-PubMedBERT
+**Technology Stack**
+Python, Custom agent framework or LangGraph, Tool-calling architecture, Vector DB, FAISS, LLM: openai/gpt-oss-20b
