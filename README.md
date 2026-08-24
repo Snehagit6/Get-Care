@@ -204,12 +204,12 @@ across patient groups.
 
 **Guideline RAG**
 American Diabetes Association
-
-
-NOTE: POC is done from live reports.Certain documents under reports removed temporary due to privacy till curation is done.
 International Diabetes Federation
 World Health Organization
 
 
 **Technology Stack**
 Python, Custom agent framework or LangGraph, Tool-calling architecture, Vector DB, FAISS, LLM: openai/gpt-oss-20b
+
+
+**NOTE**: POC is done from live reports to address real problem. Certain documents under reports removed temporary due to privacy till curation is done.
